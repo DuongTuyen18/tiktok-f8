@@ -1,0 +1,20 @@
+@import 'normalize.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #fe2c55;
+  --default-layout-width: 1150px;
+  --default-layout-header-height: 60px;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
